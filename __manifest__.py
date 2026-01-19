@@ -3,7 +3,7 @@
     'version': '18.0',
     'category': '',
     'summary': '',
-    'depends': ['base'],
+    'depends': ['base','mail'],
     'data': [
         'security/res_group.xml',
         'security/ir.model.access.csv',

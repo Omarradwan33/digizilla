@@ -5,6 +5,8 @@ from datetime import date
 
 class DigizillaProject(models.Model):
     _name = 'digizilla.project'
+    _inherit = ['mail.thread','mail.activity.mixin']
+
 
 
     name = fields.Char(required=True)
